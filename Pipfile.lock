@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b153c72e53e9ecba913ba01425d7f4cb062e5e6b6c44aed4237e304f3abe9104"
+            "sha256": "2e6a6ed58bd19183e41192b921c58feece9ff9d691c5ce9fcd89b2a6c897e413"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -42,19 +42,27 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:5cbbd985171b1e278b722dca48f71455b4938378962734828daeb76f73be6fba",
-                "sha256:73a0d092aaea1649150f43fb3f41451d5a0883940549a64d72781a23ce6b2d44"
+                "sha256:6fed94cfe8e4502ec176821d3fefed9c1973d18ef491530b158108966cfc8ae1",
+                "sha256:725e507211cde015184e2b5921512df89f63852fb079eda6ab6c282af66f45bd"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.23.5"
+            "version": "==1.23.6"
         },
         "botocore": {
             "hashes": [
-                "sha256:32541873924e3ff0ad95f02dc331e9f278721a3b864a4e2a8d514346b2598ce5",
-                "sha256:805db3ecf85ff89edfb6788f862b87426f990e3e6383ef3fca3076f7659a5454"
+                "sha256:2846ee4a548462ba6db70125bea1542b4ed39793240aabc62ddf96fb6ec7e4d1",
+                "sha256:ce3fb008ffb041d142cf3949b13529e8dc9a0db5f2ec0e86b159f10f2b56a46e"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==1.26.5"
+            "version": "==1.26.6"
+        },
+        "collectfast": {
+            "hashes": [
+                "sha256:2f6abc8cab7ec5114a7a9a3660ab629ec142556957220aa82857dc9b4381490d",
+                "sha256:e716b2234ab50b5f1010b0d78c3fae8c6aebdb8b7c66ef5568503c33c1a5e19a"
+            ],
+            "index": "pypi",
+            "version": "==2.2.0"
         },
         "colorama": {
             "hashes": [
@@ -283,6 +291,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==2.0.1"
+        },
+        "typing-extensions": {
+            "hashes": [
+                "sha256:6657594ee297170d19f67d55c05852a874e7eb634f4f753dbd667855e07c1708",
+                "sha256:f1c24655a0da0d1b67f07e17a5e6b2a105894e6824b92096378bb3668ef02376"
+            ],
+            "markers": "python_version >= '3.7'",
+            "version": "==4.2.0"
         },
         "tzdata": {
             "hashes": [
